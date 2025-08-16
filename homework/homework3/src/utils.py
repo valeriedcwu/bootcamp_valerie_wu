@@ -10,10 +10,8 @@ def get_summary_stats(df):
     by_category = (
         df.groupby("category")
           .agg(
-              n_rows=("quantity", "size"),
-              avg_price=("price_usd", "mean"),
-              total_quantity=("quantity", "sum"),
-              total_revenue=("revenue_usd", "sum")
+
+              avg_val=("value", "mean")
           )
           .reset_index()
           .to_dict(orient="records")
