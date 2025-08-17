@@ -2,10 +2,10 @@
 **Stage:** Problem Framing & Scoping (Stage 01)
 ## Problem Statement
 
-We aim to create a prototype model that prices nature gas storage contracts by summing all cash inflows/outflows (buys, sells, storage rent, and injection/withdrawal fees) under physical constraints (rates and capacity). The output should be fast enough for trader exploration and clear enough for validation to move toward production.
+We aim to create a prototype model that prices natural gas storage contracts by summing all cash inflows/outflows (buys, sells, storage rent, and injection/withdrawal fees) under physical constraints (rates and capacity). The output should be fast enough for trader exploration and clear enough for validation to move toward production.
 ## Stakeholder & User
 - **Stakeholder:** the commodity trading desk  
-- **End User:** traders or sales during client discusstions (clients could be anyone who would fall within the commodities supply chain, such as producers, refiners, transporters, and distributors.)  
+- **End User:** traders or sales during client discussions (clients could be anyone who would fall within the commodities supply chain, such as producers, refiners, transporters, and distributors.)  
 - **Timing:** interactive “what-if” use at the desk pre-trade; later embedded into quoting tools. It could also run on daily forward curves or user-selected prices.
 
 ## Useful Answer & Decision
