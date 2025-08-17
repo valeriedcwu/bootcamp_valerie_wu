@@ -1,0 +1,2 @@
+## Project purpose
+We aim to create a prototype model that prices natural gas storage contracts by summing all cash inflows/outflows (buys, sells, storage rent, and injection/withdrawal fees) under physical constraints (rates and capacity). The output should be fast enough for trader exploration and clear enough for validation to move toward production. Note that the decision maker would be the VP of the commodity trading desk, while the primary user would be traders and sales during client discussions.
